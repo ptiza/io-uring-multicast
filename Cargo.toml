@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "tokio-uring-mc",
+    "glommio-mc",
+]
