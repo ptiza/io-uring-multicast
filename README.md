@@ -7,11 +7,19 @@ Features a client (receiver) and a server (sender).
 
 Transmits a number of packets which contain a string representation of a number, which is verified at the receiver.
 
+```sh
+# build
+cargo build --release
+# binaries in:
+cd target/release
+```
+
+
 ### Example:
 - In one terminal window, to start client, execute:
     - `./tokio-uring-mc -m 239.0.123.4`
 - In another terminal window, to start server, execute:
-    - `./tokio-uring-mc -m 239.0.123.4 -s`
+    - `.tokio-uring-mc -m 239.0.123.4 -s`
     
 
 ### CLI arguments:
